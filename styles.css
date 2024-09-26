@@ -29,7 +29,7 @@ body {
     background-color: #fff;
     max-width: 530px;
     width: 100%;
-    margin: 0 24px;
+    margin: 0 24px 36px 24px;
     border-radius: 9px;
     box-shadow: -6px 0px 22px 8px rgba(0,0,0,0.1);
 }
@@ -72,7 +72,7 @@ body {
 p {
     color: gray;
     font-size: 16px;
-    padding: 1rem 0;
+    padding-top: 1rem;
 }
 
 @media (max-width: 600px){

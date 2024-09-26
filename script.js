@@ -11,7 +11,6 @@ accordianHeaders.forEach((header) => {
             if (content !== accordianContent){
                 content.classList.remove("active");
                 content.style.maxHeight = 0
-                // Get the icon for the inactive content and set it to plus
                 const inactiveIcon = content.previousElementSibling.querySelector('.icon'); 
                 inactiveIcon.src = "./assets/images/icon-plus.svg";
             }
@@ -37,7 +36,6 @@ window.addEventListener('load', function() {
         }
     }
 
-    // Call the function on page load and on window resize
     changeImageSrc();
     window.addEventListener('resize', changeImageSrc);
 });
